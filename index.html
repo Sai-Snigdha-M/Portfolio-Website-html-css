@@ -1,0 +1,197 @@
+<!-- Desktop-First Approach -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- side bar -->
+      <div class="sidebar">
+        <!-- profile -->
+        <div class="profile">
+          <img src="./media/profilePic.jpg" />
+          <h2>Sai Snigdha</h2>
+          <p>Frontend Developer</p>
+        </div>
+
+        <!-- contact -->
+        <div class="contact">
+          <div class="email">
+            <h3 class="label">Email</h3>
+            <a class="value" href="mailto:snigdha@gmail.com"
+              >snigdha@gmail.com</a
+            >
+          </div>
+          <div class="phone">
+            <h3 class="label">Phone</h3>
+            <a class="value" href="tel:1234567890">1234567890</a>
+          </div>
+          <div class="location">
+            <h3 class="label">Location</h3>
+            <p class="value">Hyderabad, India</p>
+          </div>
+        </div>
+
+        <!-- social media -->
+        <div class="social">
+          <a href="https://x.com/Time_Looper_33"
+            ><img src="https://simpleicons.org/icons/x.svg"
+          /></a>
+          <a href="https://github.com/Sai-Snigdha-M"
+            ><img src="https://simpleicons.org/icons/github.svg"
+          /></a>
+          <a href="https://www.linkedin.com/in/sai-snigdha-m"
+            ><img src="https://www.svgrepo.com/show/204944/linkedin.svg"
+          /></a>
+        </div>
+      </div>
+
+      <!-- main-content -->
+      <div class="main-content">
+        <!-- navigation -->
+        <div id="navigation">
+          <nav>
+            <a href="#about" class="active">About</a>
+            <a href="#skill">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#portfolio">Portfolio</a>
+          </nav>
+        </div>
+
+        <!-- about me -->
+        <div id="about">
+          <h2 class="heading">About Me</h2>
+          <div class="line"></div>
+          <p class="content">
+            I am a creative and passionate Frontend Developer with a keen eye
+            for detail and a love for building beautiful, functional, and
+            user-friendly web experiences. My journey in web development is
+            driven by a desire to turn complex problems into simple, elegant
+            solutions. I specialize in modern web technologies and am always
+            eager to learn and adapt to the ever- evolving digital landscape.
+          </p>
+        </div>
+
+        <!-- skills -->
+        <div id="skills">
+          <h2 class="heading">My Skills</h2>
+          <div class="line"></div>
+          <div class="grid-container">
+            <div class="item">
+              <img src="https://simpleicons.org/icons/html5.svg" />
+              <h3>HTML5</h3>
+            </div>
+            <div class="item">
+              <img src="https://simpleicons.org/icons/css.svg" />
+              <h3>CSS3</h3>
+            </div>
+            <div class="item">
+              <img src="https://simpleicons.org/icons/javascript.svg" />
+              <h3>JavaScript</h3>
+            </div>
+            <div class="item">
+              <img src="https://simpleicons.org/icons/react.svg" />
+              <h3>React</h3>
+            </div>
+            <div class="item">
+              <img src="https://simpleicons.org/icons/git.svg" />
+              <h3>Git & Github</h3>
+            </div>
+            <div class="item">
+              <img src="https://simpleicons.org/icons/typescript.svg" />
+              <h3>TypeScript</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- education -->
+        <div id="education">
+          <h2 class="heading">Education</h2>
+          <div class="line"></div>
+          <div class="edtech">
+            <div class="edfirst">
+              <div class="year">2020-2022</div>
+              <h3 class="degree">Master of Technology in CSE</h3>
+              <p class="college">Indian Institute of Technology, Bombay</p>
+              <p class="work">
+                Focused on software development, algorithms and web
+                technologies. Completed a final year project on building a
+                responsive e-commerce platform.
+              </p>
+              <div class="goal"></div>
+            </div>
+            <div class="edsecond">
+              <div class="year">2016-2020</div>
+              <h3 class="degree">Bachelors of Technology in CSE</h3>
+              <p class="college">VIMTW, Hyderabad</p>
+              <p class="work">
+                Focused on learning Algorithm, DBMS, Computer Network and
+                Operating System. Cracked GATE CSE with AIR 100
+              </p>
+              <div class="goal"></div>
+            </div>
+            <div class="liner"></div>
+          </div>
+        </div>
+
+        <!-- portfolio -->
+        <div id="portfolio">
+          <h2 class="heading">Portfolio</h2>
+          <div class="line"></div>
+
+          <div class="project-container">
+            <div class="project">
+              <img src="./media/e-comm.jpg" />
+              <div class="card">
+                <h3>E-Commerce Website</h3>
+                <p>
+                  A fully responsive online store built with modern design
+                  principles.
+                </p>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+            <div class="project">
+              <img src="./media/landing.jpg" />
+              <div class="card">
+                <h3>Business Landing Page</h3>
+                <p>
+                  A Sleek, single-page site for a corporate client to generate
+                  leads.
+                </p>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Flexbox</span>
+              </div>
+            </div>
+            <div class="project">
+              <img src="./media/anlaytics.jpg" />
+              <div class="card">
+                <h3>Analytics Dashboard UI</h3>
+                <p>A data visualization dashboard UI created with CSS Grid.</p>
+                <span>Grid</span>
+                <span>UI/UX</span>
+              </div>
+            </div>
+            <div class="project">
+              <img src="./media/theme.jpg" />
+              <div class="card">
+                <h3>Personal Blog Theme</h3>
+                <p>
+                  A clean, content-focused blog theme designed for readability.
+                </p>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
