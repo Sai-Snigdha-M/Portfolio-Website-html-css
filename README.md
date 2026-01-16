@@ -1,4 +1,4 @@
-# Portfolio Project
+# Portfolio Website
 
 This project is a simple portfolio website created using only HTML and CSS.
 
